@@ -1,3 +1,10 @@
+import Helmet from "../components/Helmet";
+
 export default function About() {
-  return "about ";
+  return (
+    <>
+      <Helmet title="About" />
+      <h1>About</h1>
+    </>
+  );
 }
